@@ -1,9 +1,8 @@
-import React from 'react'
+import Image from "next/image";
+import React from "react";
 
 const Page = () => {
-  return (
-    <div>page</div>
-  )
-}
+  return <div>menu</div>;
+};
 
-export default Page
+export default Page;
