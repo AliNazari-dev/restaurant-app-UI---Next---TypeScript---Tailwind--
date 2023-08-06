@@ -1,7 +1,7 @@
 
 import { featuredProducts } from "@/data";
 import Image from "next/image";
-import React from "react";
+import React from "react"
 
 const FeaturedItems = () => {
   return (
