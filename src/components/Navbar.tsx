@@ -1,8 +1,8 @@
 import React from "react";
-import Menu from "./Menu";
 import Link from "next/link";
 import CartIcon from "./CartIcons";
 import Image from "next/image";
+import MenuPage from "@/app/menu/page";
 
 const Navbar = () => {
   const user = false;
@@ -20,7 +20,7 @@ const Navbar = () => {
       </div>
       {/* MOBILE MENU */}
       <div className="md:hidden">
-        <Menu />
+        <MenuPage />
       </div>
       {/* RIGHT LINKS */}
       <div className="hidden md:flex gap-4 items-center justify-end flex-1">
