@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import CartIcons from "./CartIcons";
+import CartIcons from "./CartIcon";
 
 const links = [
   { id: 1, title: "Homepage", url: "/" },
